@@ -43,7 +43,6 @@ OM_TELEOP::~OM_TELEOP()
     ros::shutdown(); // explicitly needed since we use ros::start();
     ros::waitForShutdown();
   }
-  wait();
 }
 
 void OM_TELEOP::initClient()
